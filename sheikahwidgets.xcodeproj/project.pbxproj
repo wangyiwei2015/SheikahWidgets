@@ -1,0 +1,911 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 56;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		B32DEF8D2A6597BB000F1329 /* sheikahwidgetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32DEF8C2A6597BB000F1329 /* sheikahwidgetsApp.swift */; };
+		B32DEF8F2A6597BB000F1329 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32DEF8E2A6597BB000F1329 /* ContentView.swift */; };
+		B32DEF912A6597BC000F1329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32DEF902A6597BC000F1329 /* Assets.xcassets */; };
+		B32DEF942A6597BC000F1329 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32DEF932A6597BC000F1329 /* Preview Assets.xcassets */; };
+		B32DEFA12A659874000F1329 /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32DEFA02A659874000F1329 /* WidgetKit.framework */; };
+		B32DEFA32A659874000F1329 /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32DEFA22A659874000F1329 /* SwiftUI.framework */; };
+		B32DEFA62A659874000F1329 /* skwdgtBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32DEFA52A659874000F1329 /* skwdgtBundle.swift */; };
+		B32DEFA82A659874000F1329 /* skwdgtLiveActivity.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32DEFA72A659874000F1329 /* skwdgtLiveActivity.swift */; };
+		B32DEFAA2A659874000F1329 /* skwdgt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32DEFA92A659874000F1329 /* skwdgt.swift */; };
+		B32DEFAD2A659874000F1329 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B32DEFAC2A659874000F1329 /* Assets.xcassets */; };
+		B32DEFAF2A659874000F1329 /* skwdgt.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B32DEFAB2A659874000F1329 /* skwdgt.intentdefinition */; };
+		B32DEFB02A659874000F1329 /* skwdgt.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B32DEFAB2A659874000F1329 /* skwdgt.intentdefinition */; };
+		B32DEFB32A659875000F1329 /* skwdgtExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B32DEF9E2A659874000F1329 /* skwdgtExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B32DEFBA2A659A5D000F1329 /* xr62s-38tzz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B32DEFB92A659A5D000F1329 /* xr62s-38tzz.ttf */; };
+		B32DEFBB2A659A5D000F1329 /* xr62s-38tzz.ttf in Resources */ = {isa = PBXBuildFile; fileRef = B32DEFB92A659A5D000F1329 /* xr62s-38tzz.ttf */; };
+		B368BAEE2A679A690043272C /* sheikahwatchwidgetsApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = B368BAED2A679A690043272C /* sheikahwatchwidgetsApp.swift */; };
+		B368BAF02A679A690043272C /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = B368BAEF2A679A690043272C /* ContentView.swift */; };
+		B368BAF22A679A6A0043272C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B368BAF12A679A6A0043272C /* Assets.xcassets */; };
+		B368BAF52A679A6A0043272C /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B368BAF42A679A6A0043272C /* Preview Assets.xcassets */; };
+		B368BAF82A679A6A0043272C /* sheikahwatchwidgets Watch App.app in Embed Watch Content */ = {isa = PBXBuildFile; fileRef = B368BAEB2A679A690043272C /* sheikahwatchwidgets Watch App.app */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B368BB022A679AA00043272C /* WidgetKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32DEFA02A659874000F1329 /* WidgetKit.framework */; };
+		B368BB032A679AA00043272C /* SwiftUI.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = B32DEFA22A659874000F1329 /* SwiftUI.framework */; };
+		B368BB092A679AA10043272C /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = B368BB082A679AA10043272C /* Assets.xcassets */; };
+		B368BB0F2A679AA10043272C /* clkwdgtExtension.appex in Embed Foundation Extensions */ = {isa = PBXBuildFile; fileRef = B368BB012A679AA00043272C /* clkwdgtExtension.appex */; settings = {ATTRIBUTES = (RemoveHeadersOnCopy, ); }; };
+		B368BB142A679AF90043272C /* skwdgt.swift in Sources */ = {isa = PBXBuildFile; fileRef = B32DEFA92A659874000F1329 /* skwdgt.swift */; };
+		B368BB152A679AFC0043272C /* skwdgt.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B32DEFAB2A659874000F1329 /* skwdgt.intentdefinition */; };
+		B368BB162A679AFD0043272C /* skwdgt.intentdefinition in Sources */ = {isa = PBXBuildFile; fileRef = B32DEFAB2A659874000F1329 /* skwdgt.intentdefinition */; };
+		B36B8AF72AA9D04E009B9376 /* clkwdgtBundle.swift in Sources */ = {isa = PBXBuildFile; fileRef = B36B8AF62AA9D04E009B9376 /* clkwdgtBundle.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		B32DEFB12A659874000F1329 /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B32DEF812A6597BB000F1329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B32DEF9D2A659874000F1329;
+			remoteInfo = skwdgtExtension;
+		};
+		B368BAF62A679A6A0043272C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B32DEF812A6597BB000F1329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B368BAEA2A679A690043272C;
+			remoteInfo = "sheikahwatchwidgets Watch App";
+		};
+		B368BB0D2A679AA10043272C /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = B32DEF812A6597BB000F1329 /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = B368BB002A679AA00043272C;
+			remoteInfo = clkwdgtExtension;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXCopyFilesBuildPhase section */
+		B32DEFB72A659875000F1329 /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B32DEFB32A659875000F1329 /* skwdgtExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B368BAFC2A679A6A0043272C /* Embed Watch Content */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "$(CONTENTS_FOLDER_PATH)/Watch";
+			dstSubfolderSpec = 16;
+			files = (
+				B368BAF82A679A6A0043272C /* sheikahwatchwidgets Watch App.app in Embed Watch Content */,
+			);
+			name = "Embed Watch Content";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B368BB132A679AA10043272C /* Embed Foundation Extensions */ = {
+			isa = PBXCopyFilesBuildPhase;
+			buildActionMask = 2147483647;
+			dstPath = "";
+			dstSubfolderSpec = 13;
+			files = (
+				B368BB0F2A679AA10043272C /* clkwdgtExtension.appex in Embed Foundation Extensions */,
+			);
+			name = "Embed Foundation Extensions";
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXCopyFilesBuildPhase section */
+
+/* Begin PBXFileReference section */
+		B32DEF892A6597BB000F1329 /* sheikahwidgets.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = sheikahwidgets.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32DEF8C2A6597BB000F1329 /* sheikahwidgetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sheikahwidgetsApp.swift; sourceTree = "<group>"; };
+		B32DEF8E2A6597BB000F1329 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B32DEF902A6597BC000F1329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B32DEF932A6597BC000F1329 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B32DEF9E2A659874000F1329 /* skwdgtExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = skwdgtExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B32DEFA02A659874000F1329 /* WidgetKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = WidgetKit.framework; path = System/Library/Frameworks/WidgetKit.framework; sourceTree = SDKROOT; };
+		B32DEFA22A659874000F1329 /* SwiftUI.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SwiftUI.framework; path = System/Library/Frameworks/SwiftUI.framework; sourceTree = SDKROOT; };
+		B32DEFA52A659874000F1329 /* skwdgtBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skwdgtBundle.swift; sourceTree = "<group>"; };
+		B32DEFA72A659874000F1329 /* skwdgtLiveActivity.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skwdgtLiveActivity.swift; sourceTree = "<group>"; };
+		B32DEFA92A659874000F1329 /* skwdgt.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = skwdgt.swift; sourceTree = "<group>"; };
+		B32DEFAB2A659874000F1329 /* skwdgt.intentdefinition */ = {isa = PBXFileReference; lastKnownFileType = file.intentdefinition; path = skwdgt.intentdefinition; sourceTree = "<group>"; };
+		B32DEFAC2A659874000F1329 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B32DEFAE2A659874000F1329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B32DEFB92A659A5D000F1329 /* xr62s-38tzz.ttf */ = {isa = PBXFileReference; lastKnownFileType = file; path = "xr62s-38tzz.ttf"; sourceTree = "<group>"; };
+		B32DEFBC2A659A76000F1329 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist; path = Info.plist; sourceTree = "<group>"; };
+		B368BAEB2A679A690043272C /* sheikahwatchwidgets Watch App.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "sheikahwatchwidgets Watch App.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		B368BAED2A679A690043272C /* sheikahwatchwidgetsApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = sheikahwatchwidgetsApp.swift; sourceTree = "<group>"; };
+		B368BAEF2A679A690043272C /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		B368BAF12A679A6A0043272C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B368BAF42A679A6A0043272C /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		B368BB012A679AA00043272C /* clkwdgtExtension.appex */ = {isa = PBXFileReference; explicitFileType = "wrapper.app-extension"; includeInIndex = 0; path = clkwdgtExtension.appex; sourceTree = BUILT_PRODUCTS_DIR; };
+		B368BB082A679AA10043272C /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		B368BB0A2A679AA10043272C /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		B36B8AF62AA9D04E009B9376 /* clkwdgtBundle.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = clkwdgtBundle.swift; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		B32DEF862A6597BB000F1329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32DEF9B2A659874000F1329 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32DEFA32A659874000F1329 /* SwiftUI.framework in Frameworks */,
+				B32DEFA12A659874000F1329 /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B368BAE82A679A690043272C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B368BAFE2A679AA00043272C /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B368BB032A679AA00043272C /* SwiftUI.framework in Frameworks */,
+				B368BB022A679AA00043272C /* WidgetKit.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		B32DEF802A6597BB000F1329 = {
+			isa = PBXGroup;
+			children = (
+				B32DEFB82A659A4D000F1329 /* Resources */,
+				B32DEF8B2A6597BB000F1329 /* sheikahwidgets */,
+				B32DEFA42A659874000F1329 /* skwdgt */,
+				B368BAEC2A679A690043272C /* sheikahwatchwidgets Watch App */,
+				B368BB042A679AA00043272C /* clkwdgt */,
+				B32DEF9F2A659874000F1329 /* Frameworks */,
+				B32DEF8A2A6597BB000F1329 /* Products */,
+			);
+			sourceTree = "<group>";
+			wrapsLines = 0;
+		};
+		B32DEF8A2A6597BB000F1329 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				B32DEF892A6597BB000F1329 /* sheikahwidgets.app */,
+				B32DEF9E2A659874000F1329 /* skwdgtExtension.appex */,
+				B368BAEB2A679A690043272C /* sheikahwatchwidgets Watch App.app */,
+				B368BB012A679AA00043272C /* clkwdgtExtension.appex */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		B32DEF8B2A6597BB000F1329 /* sheikahwidgets */ = {
+			isa = PBXGroup;
+			children = (
+				B32DEFBC2A659A76000F1329 /* Info.plist */,
+				B32DEF8C2A6597BB000F1329 /* sheikahwidgetsApp.swift */,
+				B32DEF8E2A6597BB000F1329 /* ContentView.swift */,
+				B32DEF902A6597BC000F1329 /* Assets.xcassets */,
+				B32DEF922A6597BC000F1329 /* Preview Content */,
+			);
+			path = sheikahwidgets;
+			sourceTree = "<group>";
+		};
+		B32DEF922A6597BC000F1329 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B32DEF932A6597BC000F1329 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B32DEF9F2A659874000F1329 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				B32DEFA02A659874000F1329 /* WidgetKit.framework */,
+				B32DEFA22A659874000F1329 /* SwiftUI.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		B32DEFA42A659874000F1329 /* skwdgt */ = {
+			isa = PBXGroup;
+			children = (
+				B32DEFA52A659874000F1329 /* skwdgtBundle.swift */,
+				B32DEFA72A659874000F1329 /* skwdgtLiveActivity.swift */,
+				B32DEFA92A659874000F1329 /* skwdgt.swift */,
+				B32DEFAB2A659874000F1329 /* skwdgt.intentdefinition */,
+				B32DEFAC2A659874000F1329 /* Assets.xcassets */,
+				B32DEFAE2A659874000F1329 /* Info.plist */,
+			);
+			path = skwdgt;
+			sourceTree = "<group>";
+		};
+		B32DEFB82A659A4D000F1329 /* Resources */ = {
+			isa = PBXGroup;
+			children = (
+				B32DEFB92A659A5D000F1329 /* xr62s-38tzz.ttf */,
+			);
+			path = Resources;
+			sourceTree = "<group>";
+		};
+		B368BAEC2A679A690043272C /* sheikahwatchwidgets Watch App */ = {
+			isa = PBXGroup;
+			children = (
+				B368BAED2A679A690043272C /* sheikahwatchwidgetsApp.swift */,
+				B368BAEF2A679A690043272C /* ContentView.swift */,
+				B368BAF12A679A6A0043272C /* Assets.xcassets */,
+				B368BAF32A679A6A0043272C /* Preview Content */,
+			);
+			path = "sheikahwatchwidgets Watch App";
+			sourceTree = "<group>";
+		};
+		B368BAF32A679A6A0043272C /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				B368BAF42A679A6A0043272C /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		B368BB042A679AA00043272C /* clkwdgt */ = {
+			isa = PBXGroup;
+			children = (
+				B36B8AF62AA9D04E009B9376 /* clkwdgtBundle.swift */,
+				B368BB082A679AA10043272C /* Assets.xcassets */,
+				B368BB0A2A679AA10043272C /* Info.plist */,
+			);
+			path = clkwdgt;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		B32DEF882A6597BB000F1329 /* sheikahwidgets */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32DEF972A6597BC000F1329 /* Build configuration list for PBXNativeTarget "sheikahwidgets" */;
+			buildPhases = (
+				B32DEF852A6597BB000F1329 /* Sources */,
+				B32DEF862A6597BB000F1329 /* Frameworks */,
+				B32DEF872A6597BB000F1329 /* Resources */,
+				B32DEFB72A659875000F1329 /* Embed Foundation Extensions */,
+				B368BAFC2A679A6A0043272C /* Embed Watch Content */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B32DEFB22A659874000F1329 /* PBXTargetDependency */,
+				B368BAF72A679A6A0043272C /* PBXTargetDependency */,
+			);
+			name = sheikahwidgets;
+			productName = sheikahwidgets;
+			productReference = B32DEF892A6597BB000F1329 /* sheikahwidgets.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B32DEF9D2A659874000F1329 /* skwdgtExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B32DEFB42A659875000F1329 /* Build configuration list for PBXNativeTarget "skwdgtExtension" */;
+			buildPhases = (
+				B32DEF9A2A659874000F1329 /* Sources */,
+				B32DEF9B2A659874000F1329 /* Frameworks */,
+				B32DEF9C2A659874000F1329 /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = skwdgtExtension;
+			productName = skwdgtExtension;
+			productReference = B32DEF9E2A659874000F1329 /* skwdgtExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+		B368BAEA2A679A690043272C /* sheikahwatchwidgets Watch App */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B368BAF92A679A6A0043272C /* Build configuration list for PBXNativeTarget "sheikahwatchwidgets Watch App" */;
+			buildPhases = (
+				B368BAE72A679A690043272C /* Sources */,
+				B368BAE82A679A690043272C /* Frameworks */,
+				B368BAE92A679A690043272C /* Resources */,
+				B368BB132A679AA10043272C /* Embed Foundation Extensions */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				B368BB0E2A679AA10043272C /* PBXTargetDependency */,
+			);
+			name = "sheikahwatchwidgets Watch App";
+			productName = "sheikahwatchwidgets Watch App";
+			productReference = B368BAEB2A679A690043272C /* sheikahwatchwidgets Watch App.app */;
+			productType = "com.apple.product-type.application";
+		};
+		B368BB002A679AA00043272C /* clkwdgtExtension */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = B368BB102A679AA10043272C /* Build configuration list for PBXNativeTarget "clkwdgtExtension" */;
+			buildPhases = (
+				B368BAFD2A679AA00043272C /* Sources */,
+				B368BAFE2A679AA00043272C /* Frameworks */,
+				B368BAFF2A679AA00043272C /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = clkwdgtExtension;
+			productName = clkwdgtExtension;
+			productReference = B368BB012A679AA00043272C /* clkwdgtExtension.appex */;
+			productType = "com.apple.product-type.app-extension";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		B32DEF812A6597BB000F1329 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1430;
+				LastUpgradeCheck = 1430;
+				TargetAttributes = {
+					B32DEF882A6597BB000F1329 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					B32DEF9D2A659874000F1329 = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					B368BAEA2A679A690043272C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+					B368BB002A679AA00043272C = {
+						CreatedOnToolsVersion = 14.3;
+					};
+				};
+			};
+			buildConfigurationList = B32DEF842A6597BB000F1329 /* Build configuration list for PBXProject "sheikahwidgets" */;
+			compatibilityVersion = "Xcode 14.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = B32DEF802A6597BB000F1329;
+			productRefGroup = B32DEF8A2A6597BB000F1329 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				B32DEF882A6597BB000F1329 /* sheikahwidgets */,
+				B32DEF9D2A659874000F1329 /* skwdgtExtension */,
+				B368BAEA2A679A690043272C /* sheikahwatchwidgets Watch App */,
+				B368BB002A679AA00043272C /* clkwdgtExtension */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		B32DEF872A6597BB000F1329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32DEF942A6597BC000F1329 /* Preview Assets.xcassets in Resources */,
+				B32DEFBA2A659A5D000F1329 /* xr62s-38tzz.ttf in Resources */,
+				B32DEF912A6597BC000F1329 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32DEF9C2A659874000F1329 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32DEFBB2A659A5D000F1329 /* xr62s-38tzz.ttf in Resources */,
+				B32DEFAD2A659874000F1329 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B368BAE92A679A690043272C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B368BAF52A679A6A0043272C /* Preview Assets.xcassets in Resources */,
+				B368BAF22A679A6A0043272C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B368BAFF2A679AA00043272C /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B368BB092A679AA10043272C /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		B32DEF852A6597BB000F1329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32DEFB02A659874000F1329 /* skwdgt.intentdefinition in Sources */,
+				B32DEF8F2A6597BB000F1329 /* ContentView.swift in Sources */,
+				B32DEF8D2A6597BB000F1329 /* sheikahwidgetsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B32DEF9A2A659874000F1329 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B32DEFAF2A659874000F1329 /* skwdgt.intentdefinition in Sources */,
+				B32DEFAA2A659874000F1329 /* skwdgt.swift in Sources */,
+				B32DEFA82A659874000F1329 /* skwdgtLiveActivity.swift in Sources */,
+				B32DEFA62A659874000F1329 /* skwdgtBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B368BAE72A679A690043272C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B368BB152A679AFC0043272C /* skwdgt.intentdefinition in Sources */,
+				B368BAF02A679A690043272C /* ContentView.swift in Sources */,
+				B368BAEE2A679A690043272C /* sheikahwatchwidgetsApp.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B368BAFD2A679AA00043272C /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				B368BB162A679AFD0043272C /* skwdgt.intentdefinition in Sources */,
+				B368BB142A679AF90043272C /* skwdgt.swift in Sources */,
+				B36B8AF72AA9D04E009B9376 /* clkwdgtBundle.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		B32DEFB22A659874000F1329 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B32DEF9D2A659874000F1329 /* skwdgtExtension */;
+			targetProxy = B32DEFB12A659874000F1329 /* PBXContainerItemProxy */;
+		};
+		B368BAF72A679A6A0043272C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B368BAEA2A679A690043272C /* sheikahwatchwidgets Watch App */;
+			targetProxy = B368BAF62A679A6A0043272C /* PBXContainerItemProxy */;
+		};
+		B368BB0E2A679AA10043272C /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = B368BB002A679AA00043272C /* clkwdgtExtension */;
+			targetProxy = B368BB0D2A679AA10043272C /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		B32DEF952A6597BC000F1329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Debug;
+		};
+		B32DEF962A6597BC000F1329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+				WATCHOS_DEPLOYMENT_TARGET = 9.4;
+			};
+			name = Release;
+		};
+		B32DEF982A6597BC000F1329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_ASSET_PATHS = "\"sheikahwidgets/Preview Content\"";
+				DEVELOPMENT_TEAM = JS2ME2LTBF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sheikahwidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SheikahWidgets;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyw.sheikahwidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B32DEF992A6597BC000F1329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_ASSET_PATHS = "\"sheikahwidgets/Preview Content\"";
+				DEVELOPMENT_TEAM = JS2ME2LTBF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = sheikahwidgets/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SheikahWidgets;
+				INFOPLIST_KEY_LSApplicationCategoryType = "public.app-category.utilities";
+				INFOPLIST_KEY_UIApplicationSceneManifest_Generation = YES;
+				INFOPLIST_KEY_UIApplicationSupportsIndirectInputEvents = YES;
+				INFOPLIST_KEY_UILaunchScreen_Generation = YES;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = UIInterfaceOrientationPortrait;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations_iPad = "UIInterfaceOrientationLandscapeLeft UIInterfaceOrientationLandscapeRight UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyw.sheikahwidgets;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "iphoneos iphonesimulator";
+				SUPPORTS_MACCATALYST = NO;
+				SUPPORTS_MAC_DESIGNED_FOR_IPHONE_IPAD = NO;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B32DEFB52A659875000F1329 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = JS2ME2LTBF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = skwdgt/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SheikahWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyw.sheikahwidgets.skwdgt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		B32DEFB62A659875000F1329 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 7;
+				DEVELOPMENT_TEAM = JS2ME2LTBF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = skwdgt/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = SheikahWidgets;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				IPHONEOS_DEPLOYMENT_TARGET = 16.4;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.7;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyw.sheikahwidgets.skwdgt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+		B368BAFA2A679A6A0043272C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"sheikahwatchwidgets Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = JS2ME2LTBF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = sheikahwatchwidgets;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.wyw.sheikahwidgets;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyw.sheikahwidgets.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		B368BAFB2A679A6A0043272C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_EMBED_SWIFT_STANDARD_LIBRARIES = YES;
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_ASSET_PATHS = "\"sheikahwatchwidgets Watch App/Preview Content\"";
+				DEVELOPMENT_TEAM = JS2ME2LTBF;
+				ENABLE_PREVIEWS = YES;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_KEY_CFBundleDisplayName = sheikahwatchwidgets;
+				INFOPLIST_KEY_UISupportedInterfaceOrientations = "UIInterfaceOrientationPortrait UIInterfaceOrientationPortraitUpsideDown";
+				INFOPLIST_KEY_WKCompanionAppBundleIdentifier = com.wyw.sheikahwidgets;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyw.sheikahwidgets.watchkitapp;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+		B368BB112A679AA10043272C /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = JS2ME2LTBF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = clkwdgt/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = clkwdgt;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyw.sheikahwidgets.watchkitapp.clkwdgt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Debug;
+		};
+		B368BB122A679AA10043272C /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				ASSETCATALOG_COMPILER_WIDGET_BACKGROUND_COLOR_NAME = WidgetBackground;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 2;
+				DEVELOPMENT_TEAM = JS2ME2LTBF;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = clkwdgt/Info.plist;
+				INFOPLIST_KEY_CFBundleDisplayName = clkwdgt;
+				INFOPLIST_KEY_NSHumanReadableCopyright = "";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+					"@executable_path/../../Frameworks",
+					"@executable_path/../../../../Frameworks",
+				);
+				MARKETING_VERSION = 0.1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.wyw.sheikahwidgets.watchkitapp.clkwdgt;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SDKROOT = watchos;
+				SKIP_INSTALL = YES;
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_VERSION = 5.0;
+				TARGETED_DEVICE_FAMILY = 4;
+				WATCHOS_DEPLOYMENT_TARGET = 9.1;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		B32DEF842A6597BB000F1329 /* Build configuration list for PBXProject "sheikahwidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32DEF952A6597BC000F1329 /* Debug */,
+				B32DEF962A6597BC000F1329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32DEF972A6597BC000F1329 /* Build configuration list for PBXNativeTarget "sheikahwidgets" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32DEF982A6597BC000F1329 /* Debug */,
+				B32DEF992A6597BC000F1329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B32DEFB42A659875000F1329 /* Build configuration list for PBXNativeTarget "skwdgtExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B32DEFB52A659875000F1329 /* Debug */,
+				B32DEFB62A659875000F1329 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B368BAF92A679A6A0043272C /* Build configuration list for PBXNativeTarget "sheikahwatchwidgets Watch App" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B368BAFA2A679A6A0043272C /* Debug */,
+				B368BAFB2A679A6A0043272C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		B368BB102A679AA10043272C /* Build configuration list for PBXNativeTarget "clkwdgtExtension" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B368BB112A679AA10043272C /* Debug */,
+				B368BB122A679AA10043272C /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = B32DEF812A6597BB000F1329 /* Project object */;
+}
